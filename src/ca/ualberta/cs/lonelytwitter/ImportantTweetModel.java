@@ -13,7 +13,13 @@ public class ImportantTweetModel extends LonelyTweetModel {
 	}
 	
 	public String getText() {
-		return "IMportant! " + super.getText();
+		return "Important! " + super.getText();
+	}
+
+	@Override
+	public Date getTimestamp() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
