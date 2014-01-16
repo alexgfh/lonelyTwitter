@@ -1,6 +1,6 @@
 package ca.ualberta.cs.lonelytwitter;
 
-public class NormalTweetModel extends LonelyTweetModel {
+public class NormalTweetModel extends AbstractTweetModel {
 
 	public NormalTweetModel(String text) {
 		super(text);
