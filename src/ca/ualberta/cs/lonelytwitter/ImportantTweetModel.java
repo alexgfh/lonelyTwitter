@@ -18,8 +18,8 @@ public class ImportantTweetModel extends LonelyTweetModel {
 	}
 
 	@Override
-	public Date getTimestamp() {
-		return super.timestamp;
+	public boolean isImportant() {
+		return true;
 	}
 
 }

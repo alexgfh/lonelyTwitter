@@ -9,13 +9,13 @@ public class NormalTweetModel extends LonelyTweetModel {
 	}
 
 	@Override
-	public Date getTimestamp() {
-		return super.timestamp;
+	public String getText() {
+		return super.text;
 	}
 
 	@Override
-	public String getText() {
-		return super.text;
+	public boolean isImportant() {
+		return false;
 	}
 
 }
